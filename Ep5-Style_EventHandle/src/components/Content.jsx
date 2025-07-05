@@ -1,5 +1,6 @@
 import React from "react";
 import styled from "styled-components";
+import CounterApp from "./CounterApp";
 
 let Button = styled.button`
   background-color: blue;
@@ -45,6 +46,7 @@ const Content = () => {
       >
         Duplicat
       </NewButton>
+      <CounterApp />
     </main>
   );
 };
